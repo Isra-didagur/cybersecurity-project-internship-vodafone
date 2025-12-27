@@ -1,32 +1,32 @@
 # 🔐 GUI-Based Keyboard Event Logger (Educational)
 
-A Python-based **GUI Keyboard Event Monitoring Application** developed using **Tkinter** and **pynput**.  
-This project is intended strictly for **educational purposes** to demonstrate keyboard event handling, GUI development, multithreading, and file logging in Python.
+A Python-based **GUI Keyboard Event Monitoring Application** built using **Tkinter** and **pynput**.  
+This project is developed strictly for **educational purposes** to understand keyboard event handling, GUI development, multithreading, and file logging in Python.
 
 ---
 
 ## 📌 Project Description
 
-This project implements a graphical user interface (GUI) based application that captures keyboard events such as key press, key hold, and key release. The application allows users to start and stop logging through a simple interface while ensuring system responsiveness using multithreading.
+This project implements a graphical user interface (GUI) based application that captures keyboard events such as key press, key hold, and key release. The application provides simple **Start** and **Stop** controls while ensuring the GUI remains responsive through multithreading.
 
-The captured keyboard events are stored in both structured and human-readable formats, making the application suitable for learning system-level programming and basic cybersecurity concepts in a controlled environment.
+The logged keyboard events are stored in both **structured (JSON)** and **human-readable (TXT)** formats, making the project useful for learning system-level programming concepts and introductory cybersecurity practices in a controlled environment.
 
 ---
 
-## 🎯 Objective
+## 🎯 Objectives
 
-- To understand keyboard event handling at the system level  
+- To understand system-level keyboard event handling  
 - To design a user-friendly GUI using Tkinter  
-- To store keyboard events in structured (JSON) and readable (TXT) formats  
-- To implement multithreading to prevent GUI freezing  
-- To follow ethical and educational software practices  
+- To log keyboard events in structured and readable formats  
+- To implement multithreading to avoid GUI freezing  
+- To follow ethical software development practices  
 
 ---
 
 ## 🚀 Features
 
 - GUI-based interface using Tkinter  
-- Start and Stop logging using buttons  
+- Start and Stop logging controls  
 - Logs stored in:
   - `logs.json` (structured format)
   - `logs.txt` (human-readable format)
@@ -37,11 +37,11 @@ The captured keyboard events are stored in both structured and human-readable fo
 
 ## 📸 Screenshots
 
-### 🔹 Logger Running State
-![Key Logger Running](screenshots/gui_running.png)
+### Logger Running State
+![Logger Running](screenshots/gui_running.png)
 
-### 🔹 Logger Stopped State
-![Key Logger Stopped](screenshots/gui_stopped.png)
+### Logger Stopped State
+![Logger Stopped](screenshots/gui_stopped.png)
 
 ---
 
@@ -68,12 +68,12 @@ The captured keyboard events are stored in both structured and human-readable fo
 
 ## 📂 Project Structure
 
+```text
 cybersecurity-internship/
-├── keylogger/
-│   ├── key_logger_gui.py        # Main Python program (GUI + key logging)
-│   ├── README.md                # Project documentation
-│   ├── .gitignore               # Git ignore rules (excludes logs & cache)
-│   └── screenshots/
-│       ├── gui_running.png      # Screenshot when logger is running
-│       └── gui_stopped.png      # Screenshot when logger is stopped
-
+|-- keylogger/
+|   |-- key_logger_gui.py        # Main Python program (GUI + key logging)
+|   |-- README.md                # Project documentation
+|   |-- .gitignore               # Git ignore rules (excludes logs & cache)
+|   `-- screenshots/
+|       |-- gui_running.png      # Logger running state screenshot
+|       `-- gui_stopped.png      # Logger stopped state screenshot
