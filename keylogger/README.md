@@ -69,11 +69,11 @@ The captured keyboard events are stored in both structured and human-readable fo
 ## 📂 Project Structure
 
 cybersecurity-internship/
-│
-└── keylogger/
-    ├── key_logger_gui.py      # Main Python program (GUI + key logging)
-    ├── README.md              # Project documentation
-    ├── .gitignore             # Git ignore rules (excludes logs & cache)
-    └── screenshots/           # GUI screenshots used in README
-        ├── gui_running.png    # Screenshot when logger is running
-        └── gui_stopped.png    # Screenshot when logger is stopped
+├── keylogger/
+│   ├── key_logger_gui.py        # Main Python program (GUI + key logging)
+│   ├── README.md                # Project documentation
+│   ├── .gitignore               # Git ignore rules (excludes logs & cache)
+│   └── screenshots/
+│       ├── gui_running.png      # Screenshot when logger is running
+│       └── gui_stopped.png      # Screenshot when logger is stopped
+
