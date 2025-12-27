@@ -1,64 +1,79 @@
-# 🔐 GUI-Based Keyboard Event Logger 
+# 🔐 GUI-Based Keyboard Event Logger (Educational)
 
 A Python-based **GUI Keyboard Event Monitoring Application** developed using **Tkinter** and **pynput**.  
-This project is designed strictly for **educational and learning purposes** to demonstrate keyboard event handling, multithreading, GUI development, and secure logging practices.
+This project is intended strictly for **educational purposes** to demonstrate keyboard event handling, GUI development, multithreading, and file logging in Python.
 
 ---
 
-## 📌 Problem Statement
+## 📌 Project Description
 
-Traditional command-line tools for monitoring keyboard activity lack usability, real-time control, and structured logging mechanisms. There is a need for a user-friendly, GUI-based application that can capture keyboard events in a controlled environment while maintaining system responsiveness and ethical software practices.
+This project implements a graphical user interface (GUI) based application that captures keyboard events such as key press, key hold, and key release. The application allows users to start and stop logging through a simple interface while ensuring system responsiveness using multithreading.
+
+The captured keyboard events are stored in both structured and human-readable formats, making the application suitable for learning system-level programming and basic cybersecurity concepts in a controlled environment.
 
 ---
 
 ## 🎯 Objective
 
-- To capture keyboard events such as key press, hold, and release
-- To provide a GUI-based interface for controlling logging
-- To store logged data in both structured and human-readable formats
-- To ensure smooth execution using multithreading
-- To promote ethical and educational use of system-level monitoring tools
+- To understand keyboard event handling at the system level  
+- To design a user-friendly GUI using Tkinter  
+- To store keyboard events in structured (JSON) and readable (TXT) formats  
+- To implement multithreading to prevent GUI freezing  
+- To follow ethical and educational software practices  
 
 ---
 
 ## 🚀 Features
 
-- Graphical User Interface using Tkinter
-- Start and Stop logging using buttons
+- GUI-based interface using Tkinter  
+- Start and Stop logging using buttons  
 - Logs stored in:
   - `logs.json` (structured format)
   - `logs.txt` (human-readable format)
-- Multithreaded execution (GUI does not freeze)
-- Clean and beginner-friendly Python code
-- Ethical and controlled logging approach
+- Multithreaded execution
+- Clean and beginner-friendly Python code  
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Logger Running State
+![Key Logger Running](screenshots/gui_running.png)
+
+### 🔹 Logger Stopped State
+![Key Logger Stopped](screenshots/gui_stopped.png)
 
 ---
 
 ## 🛠 Technology Used
 
-- **Python 3**
-- **Tkinter** – GUI development
-- **pynput** – Keyboard event handling
-- **threading** – Multithreading support
-- **JSON** – Structured data storage
-- **Text File Handling**
-- **Git & GitHub** – Version control
+- Python 3  
+- Tkinter  
+- pynput  
+- threading  
+- JSON  
+- Text File Handling  
+- Git & GitHub  
 
 ---
 
 ## 👥 End Users
 
-- Computer Science / Information Science students
-- Cybersecurity learners and beginners
-- Software developers exploring event-driven programming
-- Academic institutions for lab demonstrations
+- Computer Science / Information Science students  
+- Cybersecurity learners and beginners  
+- Software developers exploring event-driven programming  
+- Academic institutions for lab demonstrations  
 
 ---
 
 ## 📂 Project Structure
 
-key-logger-gui/
+cybersecurity-internship/
 │
-├── key_logger_gui.py
-├── README.md
-└── .gitignore
+└── keylogger/
+    ├── key_logger_gui.py      # Main Python program (GUI + key logging)
+    ├── README.md              # Project documentation
+    ├── .gitignore             # Git ignore rules (excludes logs & cache)
+    └── screenshots/           # GUI screenshots used in README
+        ├── gui_running.png    # Screenshot when logger is running
+        └── gui_stopped.png    # Screenshot when logger is stopped
