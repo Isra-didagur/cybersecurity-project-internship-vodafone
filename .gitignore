@@ -1,1 +1,139 @@
+log.json
+
+[
+  {
+    "Pressed": "Key.cmd"
+  },
+  {
+    "Held": "Key.shift"
+  },
+  {
+    "Held": "S"
+  },
+  {
+    "Released": "S"
+  },
+  {
+    "Released": "Key.shift"
+  },
+  {
+    "Released": "Key.cmd"
+  },
+  {
+    "Pressed": "Key.cmd"
+  },
+  {
+    "Held": "Key.shift"
+  },
+  {
+    "Held": "S"
+  },
+  {
+    "Released": "S"
+  },
+  {
+    "Released": "Key.shift"
+  },
+  {
+    "Released": "Key.cmd"
+  },
+  {
+    "Pressed": "Key.cmd"
+  },
+  {
+    "Held": "Key.shift"
+  },
+  {
+    "Held": "S"
+  },
+  {
+    "Released": "S"
+  },
+  {
+    "Released": "Key.shift"
+  },
+  {
+    "Released": "Key.cmd"
+  },
+  {
+    "Pressed": "Key.cmd"
+  },
+  {
+    "Held": "Key.shift"
+  },
+  {
+    "Held": "S"
+  },
+  {
+    "Released": "S"
+  },
+  {
+    "Released": "Key.shift"
+  },
+  {
+    "Released": "Key.cmd"
+  }
+]
+
+log.txt
+[
+=== Key Logger Started ===
+=== Key Logger Stopped ===
+=== Key Logger Started ===
+Pressed: c
+Held: k
+Held: l
+Released: c
+Pressed: d
+Released: l
+Pressed: n
+Released: k
+Released: d
+Released: n
+Pressed: k
+Released: k
+Pressed: Key.backspace
+Released: Key.backspace
+Pressed: Key.backspace
+Released: Key.backspace
+Pressed: Key.backspace
+Released: Key.backspace
+Pressed: Key.backspace
+Released: Key.backspace
+Pressed: Key.backspace
+Released: Key.backspace
+Pressed: Key.backspace
+Released: Key.backspace
+Pressed: c
+Held: d
+Released: c
+Released: d
+Pressed: v
+Held: n
+Released: v
+Released: n
+Pressed: j
+Released: j
+Pressed: n
+Held: v
+Released: n
+Pressed: k
+Released: v
+Pressed: d
+Released: k
+Released: d
+Pressed: Key.backspace
+Held: Key.backspace
+Held: Key.backspace
+Held: Key.backspace
+Held: Key.backspace
+Held: Key.backspace
+Held: Key.backspace
+Held: Key.backspace
+Released: Key.backspace
+Pressed: Key.backspace
+Released: Key.backspace
+=== Key Logger Stopped ===
+]
+
 
