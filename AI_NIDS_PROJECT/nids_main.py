@@ -151,3 +151,4 @@ if st.button("Analyze Traffic"):
 
     else:
         st.error("Please train the model first.")
+
